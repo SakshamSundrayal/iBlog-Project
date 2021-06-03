@@ -1,0 +1,77 @@
+:root {
+    --main-bg-color: #bd6418;
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto&display=swap');
+.m-auto {
+    margin: auto;
+}
+
+span img {
+    width: 75px;
+}
+
+.my-2 {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.mx-1 {
+    margin-left: 20px;
+}
+
+.form-input {
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 15px;
+    padding: 10px 2.5px;
+    font-family: var(--font1);
+}
+
+.btn {
+    padding: 2px 20px;
+    border: 2px solid black;
+    font-family: var(--font1);
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.center{
+    text-align: center;
+}
+
+.form-box input, input[type="email"], textarea {
+    width: 44vw;
+    padding: 4px;
+    border: 2px solid var(--main-bg-color);
+    font-size: 18px;
+    font-family: var(--font2);
+    margin: 5px 0;
+    border-radius: 7px;
+}
